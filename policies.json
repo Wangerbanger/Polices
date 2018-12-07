@@ -1,0 +1,707 @@
+{
+   "chromePolicies": {
+      "AllowDinosaurEasterEgg": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "AllowKioskAppControlChromeVersion": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "AllowOutdatedPlugins": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ArcBackupRestoreServiceEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": 0
+      },
+      "ArcEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ArcGoogleLocationServicesEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": 0
+      },
+      "AttestationEnabledForDevice": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "AttestationEnabledForUser": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "AttestationForContentProtectionEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "BlockThirdPartyCookies": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "BookmarkBarEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "CaptivePortalAuthenticationIgnoresProxy": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "CastReceiverEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "ChromeOsLockOnIdleSuspend": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ChromeOsMultiProfileUserBehavior": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "not-allowed"
+      },
+      "ChromeOsReleaseChannel": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "stable-channel"
+      },
+      "ChromeOsReleaseChannelDelegated": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "CookiesAllowedForUrls": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "[*.]google.com", "[*.]googleusercontent.com", "[*.]news-morriscooke.com" ]
+      },
+      "DefaultCookiesSetting": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 4
+      },
+      "DefaultJavaScriptSetting": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "DefaultPluginsSetting": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "DeveloperToolsAvailability": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "DeveloperToolsDisabled": {
+         "error": "This policy has been deprecated.\nIgnored because it was overridden by DeveloperToolsAvailability.\nThis policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceAllowNewUsers": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceAutoUpdateDisabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceBlockDevmode": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceDataRoamingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceEphemeralUsersEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceGuestModeEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLocalAccounts": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceLoginScreenAutoSelectCertificateForUrls": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceLoginScreenDefaultHighContrastEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLoginScreenDefaultLargeCursorEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLoginScreenDefaultScreenMagnifierType": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "DeviceLoginScreenDefaultSpokenFeedbackEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLoginScreenDomainAutoComplete": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "williamsvillek12.org"
+      },
+      "DeviceLoginScreenInputMethods": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceLoginScreenLocales": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceMetricsReportingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceOpenNetworkConfiguration": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "{\n   \"GlobalNetworkConfiguration\": {\n      \"AllowOnlyPolicyNetworksToAutoconnect\": false,\n      \"AllowOnlyPolicyNetworksToConnect\": false\n   },\n   \"NetworkConfigurations\": [ {\n      \"GUID\": \"{c47e259d-b3cb-44b7-92f6-53b42191760f}\",\n      \"Name\": \"WCSD\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"EAP\": {\n            \"Identity\": \"ipad\",\n            \"Inner\": \"Automatic\",\n            \"Outer\": \"PEAP\",\n            \"Password\": \"********\",\n            \"Recommended\": [ \"AnonymousIdentity\", \"Identity\", \"Password\" ],\n            \"SaveCredentials\": true,\n            \"UseSystemCAs\": false\n         },\n         \"HiddenSSID\": false,\n         \"SSID\": \"WCSD\",\n         \"Security\": \"WPA-EAP\"\n      }\n   }, {\n      \"GUID\": \"{03fb0aff-f066-409f-b0b9-8163b5120100}\",\n      \"Name\": \"WCSD_WiFi\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"EAP\": {\n            \"Identity\": \"wifi\",\n            \"Inner\": \"Automatic\",\n            \"Outer\": \"PEAP\",\n            \"Password\": \"********\",\n            \"Recommended\": [ \"AnonymousIdentity\", \"Identity\", \"Password\" ],\n            \"SaveCredentials\": true,\n            \"UseSystemCAs\": false\n         },\n         \"HiddenSSID\": false,\n         \"SSID\": \"WCSD_WiFi\",\n         \"Security\": \"WPA-EAP\"\n      }\n   } ]\n}\n"
+      },
+      "DeviceShowUserNamesOnSignin": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceTargetVersionPrefix": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "11021."
+      },
+      "DeviceUpdateHttpDownloadsEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceUpdateScatterFactor": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 604800
+      },
+      "DeviceUserWhitelist": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [ "*@williamsvillek12.org", "rlattimer@christianca.com", "gconschafter@christianca.com", "kmartin@christianca.com", "wmartey@christianca.com", "williamsvillecsd1@gmail.com", "STU-ftodaro@e2ccb.org", "STU-egirard@e2ccb.org", "STU-egirard@student.e2ccb.org", "STU-ftodaro@student.e2ccb.org", "STU-akhan@student.e2ccb.org", "STU-akhan@e2ccb.org" ]
+      },
+      "DisableSafeBrowsingProceedAnyway": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DisplayRotationDefault": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "DriveDisabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "EasyUnlockAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "EcryptfsMigrationStrategy": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 5
+      },
+      "EnableMediaRouter": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "EnableOnlineRevocationChecks": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "EnableSyncConsent": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "EnabledPlugins": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "*Flash*" ]
+      },
+      "ExtensionInstallBlacklist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "*" ]
+      },
+      "ExtensionInstallForcelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "nbjdhgkkhefpifbifjiflpaajchdkhpg;https://clients2.google.com/service/update2/crx", "pembccdigcahnckbjcbehhcacplbbomj;https://clients2.google.com/service/update2/crx", "abgfnbfplmdnhfnonljpllnfcobfebag;https://clients2.google.com/service/update2/crx", "okgjbfikepgflmlelgfgecmgjnmnmnnb;https://clients2.google.com/service/update2/crx", "apdfllckaahabafndbhieahigkjlhalf;https://clients2.google.com/service/update2/crx", "mfhehppjhmmnlfbbopchdfldgimhfhfk;https://clients2.google.com/service/update2/crx", "lneaknkopdijkpnocmklfnjbeapigfbh;https://clients2.google.com/service/update2/crx", "hmjkmjkepdijhoojdojkdfohbdgmmhki;https://clients2.google.com/service/update2/crx", "lpcaedmchfhocbbapmcbpinfpgnhiddi;https://clients2.google.com/service/update2/crx", "ejjicmeblgpmajnghnpcppodonldlgfn;https://clients2.google.com/service/update2/crx", "aapocclcgogkmnckokdopfmhonfmgoek;https://clients2.google.com/service/update2/crx", "felcaaldnbdncclmgdcncolpebgiejap;https://clients2.google.com/service/update2/crx", "blpcfgokakmgnkcojhhkbfbldkacnbeo;https://clients2.google.com/service/update2/crx", "cenpjcpgdbogmgdfhhckdbnepedjkmok;https://clients2.google.com/service/update2/crx", "bgofflgeghkhocbociocnckocbjmomjh;https://clients2.google.com/service/update2/crx", "bfpeiapdhnegnfcfkdfihabadngjagfj;https://clients2.google.com/service/update2/crx", "fnhgfoccpcjdnjcobejogdnlnidceemb;https://clients2.google.com/service/update2/crx", "mmeijimgabbpbgpdklnllpncmdofkcpn;https://clients2.google.com/service/update2/crx", "aohghmighlieiainnegkcijnfilokake;https://clients2.google.com/service/update2/crx", "ghbmnnjooekpmoecnnnilnnbdlolhkhi;https://clients2.google.com/service/update2/crx", "joodangkbfjnajiiifokapkpmhfnpleo;https://clients2.google.com/service/update2/crx", "hfhhnacclhffhdffklopdkcgdhifgngh;https://clients2.google.com/service/update2/crx", "jkecilbkdjdngkdbhfdjncppagdmjlfh;https://clients2.google.com/service/update2/crx" ]
+      },
+      "ExtensionInstallWhitelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "idlcfdihcafblaoadpfeofbcbcmfogbc", "ggebicodjlnlcnlnfmbnhihkmoblhmio", "ociighkhkffcoplfkofojilfjholclge", "jhnhfnolmcleankdkhfklakpchnccipg", "bkidjlafelhjjkdhlbmbpneaofghikcg", "mbedahlhfedefficmodbeebfcepgejeb", "moheohlmdhjkibapcidpmdponeaefnoi", "gaakmmdiopnmcenkojohldanladpajak", "pembccdigcahnckbjcbehhcacplbbomj", "abgfnbfplmdnhfnonljpllnfcobfebag", "okgjbfikepgflmlelgfgecmgjnmnmnnb", "apdfllckaahabafndbhieahigkjlhalf", "mfhehppjhmmnlfbbopchdfldgimhfhfk", "lneaknkopdijkpnocmklfnjbeapigfbh", "hmjkmjkepdijhoojdojkdfohbdgmmhki", "lpcaedmchfhocbbapmcbpinfpgnhiddi", "ejjicmeblgpmajnghnpcppodonldlgfn", "aapocclcgogkmnckokdopfmhonfmgoek", "felcaaldnbdncclmgdcncolpebgiejap", "bgofflgeghkhocbociocnckocbjmomjh", "bfpeiapdhnegnfcfkdfihabadngjagfj", "nblhpecglllndfihipmpdoikimcmgkha", "fnhgfoccpcjdnjcobejogdnlnidceemb", "aapbdbdomjkkjkaonfhkkikfgjllcleb", "adokjfanaflbkibffcbhihgihpgijcei", "nnnmhgkokpalnmbeighfomegjfkklkle", "hfknjgplnkgjihghcidajejfmldhibfm", "pnhplgjpclknigjpccbcnmicgcieojbh", "gcmhlmapohffdglflokbgknlknnmogbb", "mpgknomjjgfnghhmhnhgpmanpkccgkoc", "jimdfkeocobeeldobhpakapbhdeample", "mbniclmhobmnbdlbpiphghaielnnpgdp", "mmeijimgabbpbgpdklnllpncmdofkcpn", "hmffdimoneaieldiddcmajhbjijmnggi", "klbibkeccnjlkjkiokjodocebajanakg", "ecnphlgnajanjnkcmbpancdjoidceilk", "kcljbbiddpoeaknnjaminoceoojdbikp", "hdgegmlancchhhlkkddoiedlklgocffm", "lhpghbcjpkhhmcaegbbfhmjlnnnaomhl", "fdiljnnpfniifgbaippdemegmlhoohka", "ojocioejjpmeccjfjlhkepchminjemod", "cbnaodkpfinfiipjblikofhlhlcickei", "mjpnebljmdbglkmlnijcaplhfhkhdnib", "icdipabjmbhpdkjaihfjoikhjjeneebd", "dpbdkndgjajkiiefijgalogakkpajaao", "dbpdpeiclmkfgkeajgjamlgggojplnbh", "joodangkbfjnajiiifokapkpmhfnpleo", "hfhhnacclhffhdffklopdkcgdhifgngh", "adnohgfkodfphemhddnmikhflkolfjfh", "mkaakpdehdafacodkgkpghoibnmamcme", "jhknlonaankphkkbnmjdlpehkinifeeg", "iimbdmgkimpbhimdjnmiffmeefbppijo", "dncgedbnidfkppmdgfgidcepclnokpkb", "pflionopdgpjckjkafnlamfmonjhccdh", "llogfdcpkbmhlbhpedllgoapfacjeehc", "pifccnhncmnilgbnnkjkgicpkeclodpd", "iljojpiodmlhoehoecppliohmplbgeij", "ffcdbahjgkcjlihapdgildkclemddloh", "fhcpnppigjdhghbohcbogmmhmfkobgbm", "pdblapgbfbphhldogcijidlkbcgokfkc", "meemkplfomoioonodcagdahjbcgfjgmc", "adhdegclfbodpmkgijicickeocncjkpp", "fiefoaeemgdpplhofbhkdehoidoajfld", "iaigceaehdihlnolehbapjfbbfpnlngg", "ppckapbnfhikdajgehibjapcohbaomhd", "hojmjpdlmjopaeginhldhiokeidchjid", "icmaknaampgiegkcjlimdiidlhopknpk", "iaiglpeefdoagfbbfhjfbmomnfobojia", "ndjpildffkeodjdaeebdhnncfhopkajk", "fhcmhglnohogibbbpbodmjeggpdlboop", "nlngjmhlfdekmgoaaiendhkcbhdcedjh", "lahlmdogjpblkonckkgbljegkiijjbag", "ifajfiofeifbbhbionejdliodenmecna", "ljkchdmiefjpclcpniabljokcaedooaa", "clmabinlolakdafkoajkfjjengcdmnpm", "lfloofocohhfeeoohpokmljiinfmpenj", "gfjopfpjmkcfgjpogepmdjmcnihfpokn", "jkecilbkdjdngkdbhfdjncppagdmjlfh", "cmeclblmdmffdgpdlifgepjddoplmmal", "bjgaebedopceccaeilcggifflldliobf", "ofhomjgaaamjpmjogmkglfojkdlabekg", "eefedolmcildfckjamddopaplfiiankl", "inoeonmfapjbbkmdafoankkfajkcphgd", "hjngolefdpdnooamgdldlkjgmdcmcjnc", "bpconcjcammlapcogcnnelfmaeghhagj", "kbfnbcaeplbcioakkpcpgfkobkghlhen", "anlkfbpodhealnhnmdaflcekcmcjpnil", "hdhinadidafjejdhmfkjgnolgimiaplp", "bogbeamlpeicceboocmjdcpmfnpphdjm", "feepmdlmhplaojabeoecaobfmibooaid", "enfolipbjmnmleonhhebhalojdpcpdoo", "mdddabjhelpilpnpgondfmehhcplpiin", "ohpcoflekopkahpgomnabhkclbedepll", "mclkkofklkfljcocdinagocijmpgbhab", "ngabidjikmpanokhnajohenclgjedjkp", "dehajjkfchegiinhcmoclkfbnmpgcahj", "nfiekeidmabgihoefbofbeepmcdglhji", "dfbmcelmchhnfkmpccoabeplnmdljeod", "ejajakfhhhhkifioabcekjjlhpoiijfa" ]
+      },
+      "ExternalStorageDisabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ExternalStorageReadOnly": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ForceGoogleSafeSearch": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ForceYouTubeRestrict": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "HeartbeatEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "IncognitoModeAvailability": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "InstantTetheringAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "LidCloseAction": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "LogUploadEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "LoginVideoCaptureAllowedUrls": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "ManagedBookmarks": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ {
+            "toplevel_name": "District Bookmarks"
+         }, {
+            "name": "Lightspeed",
+            "url": "http://webfilter.williamsvillek12.org/lsaccess/logout"
+         }, {
+            "name": "Reading Student Access",
+            "url": "https://h100002218.education.scholastic.com/slms/studentaccess"
+         }, {
+            "name": "WITS",
+            "url": "https://wits.williamsvillek12.org/data/WITS"
+         }, {
+            "name": "Library Catalog",
+            "url": "https://wcsdestiny.williamsvillek12.org/"
+         }, {
+            "name": "Pixlr",
+            "url": "https://pixlr.com/editor/"
+         }, {
+            "name": "WCSD Password Management Site",
+            "url": "https://reset.williamsvillek12.org/"
+         } ]
+      },
+      "MaxInvalidationFetchDelay": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 10000
+      },
+      "NTPContentSuggestionsEnabled": {
+         "error": "Unknown policy.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "NativePrinters": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "NetBiosShareDiscoveryEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "NetworkThrottlingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": {
+            "download_rate_kbits": 0,
+            "enabled": false,
+            "upload_rate_kbits": 0
+         }
+      },
+      "OpenNetworkConfiguration": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "{\n   \"Certificates\": [ {\n      \"GUID\": \"{d087b0d0-ba50-42f7-bd7d-37356f017aa4}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\r\\nMIID1DCCArwCCQCnEPOsICnVmjANBgkqhkiG9w0BAQUFADCBqzELMAkGA1UEBhMC\\r\\nVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFDASBgNVBAcTC0Jha2Vyc2ZpZWxkMRsw\\r\\nGQYDVQQKExJMaWdodHNwZWVkIFN5c3RlbXMxEDAOBgNVBAsTB1N1cHBvcnQxFDAS\\r\\nBgNVBAMTC1NlbGYtc2lnbmVkMSwwKgYJKoZIhvcNAQkBFh1zdXBwb3J0QGxpZ2h0\\r\\nc3BlZWRzeXN0ZW1zLmNvbTAeFw0xNDEyMDUxNjAxMDhaFw0yNDEyMDQxNjAxMDha\\r\\nMIGrMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEUMBIGA1UEBxML\\r\\nQmFrZXJzZmllbGQxGzAZBgNVBAoTEkxpZ2h0c3BlZWQgU3lzdGVtczEQMA4GA1UE\\r\\nCxMHU3VwcG9ydDEUMBIGA1UEAxMLU2VsZi1zaWduZWQxLDAqBgkqhkiG9w0BCQEW\\r\\nHXN1cHBvcnRAbGlnaHRzcGVlZHN5c3RlbXMuY29tMIIBIjANBgkqhkiG9w0BAQEF\\r\\nAAOCAQ8AMIIBCgKCAQEA6wfN0jxh6bfSkKluqxo9wn/VKAMbc4lheewUhY+3y/WA\\r\\nIJ0ojN13F6NUHjVjysdpfBGthvSPc9Vm7d7f7ytFU6/OfmuPJGoMH2SE4h6k6FEO\\r\\nzIIX2uA0Zpx4B0w3c+1Lc86LdRaCWe3jkD45c2gJ6qRBSqSX7InVh3b3b6oeGjNX\\r\\nFLYn1Mn2rbxiFK7ipmzvVf3WYKg3YI9IUyffndGxJX0GC7n1BnSE4ocKfG7H1IZJ\\r\\nDCDeqJdE/LzfPnbmVWnxxPkff9SsI/z5KgBkf9E/27lE3GbqRvADkJFCChY4+pwa\\r\\npIFeSY90VaG15xq+vrCt0TDDSMyzRkwr1PIWTX/CuQIDAQABMA0GCSqGSIb3DQEB\\r\\nBQUAA4IBAQApnvryxzKyulFknqFv9CuXGzhovmHBAmLY4Khlol2hm79pbNvF0hGP\\r\\nq2UOEcSv/vp/bcKWrERdzlFX92vZWlgIhpNRRIq920u2hdz0KEOGvR3aHkqCpu+w\\r\\n8FZjgCrgMVUJRAhKPEAhhV2wJi+TozjZice48gw0Pdj6kOXLVpgePKN7Cyuqqj7V\\r\\nUy+Yq3ey+h/TGbKDarTZnAV9+UR5MDsL1wLZWKSg7L/M4wfua5UHjbvSNJY2lcNl\\r\\n927EsLBRJYPSvszgwNm5tFeRM4t0GLt6jEsSQPCnDzRJYLtKPx2Wt05ewQYAWkcJ\\r\\n2gD/4fr93v2RD33ezmEI91ZsS37hnulW\\r\\n-----END CERTIFICATE-----\"\n   }, {\n      \"GUID\": \"{2ebe4aa9-38e4-41c7-bcfe-c8e16deb4a63}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIIGeDCCBWCgAwIBAgIQK+UiY9n5EG1ttyWnFvFX8DANBgkqhkiG9w0BAQsFADB+\\nMQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAd\\nBgNVBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVj\\nIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAtIEc0MB4XDTE3MDEyMDAwMDAwMFoX\\nDTE4MDQyMTIzNTk1OVowgYMxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhOZXcgWW9y\\nazEUMBIGA1UEBwwLV2VzdCBTZW5lY2ExFTATBgNVBAoMDEVyaWUgMSBCT0NFUzEW\\nMBQGA1UECwwNV2lyZWxlc3MgVGVzdDEcMBoGA1UEAwwTd2lyZWxlc3Mud255cmlj\\nLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALR/ED62dDyEAk8L\\nFdi2N2kFjyTjKfPh4NFz1Jrs9ZO8M8jO5Ax/9Gm1MfsgQCmsk3/1zLa9Rqg8kkj4\\ncs72QyweREVKGr4MpviybhZv9vwmLB+0DPds+yGu1RZr+iiiSrLobwlrPZBtDicc\\nmGsFcbMGXQSqPuiITapCT1YsMV/Pnp7uumttF6KorQvEAr2/wwPD75gU03FqVcBd\\nmwjSoZgqII/efqpvGmNXzZdylB+5QfczWYL9OR/b4CsmzaaF+SO++RCp+Ef8VkBT\\nF6bLJlcUbSZt9n8VUwfR3J7sNKrv81rsNiadtcxojc8VW4HHTYi8q6+zJFPqUhZQ\\n2JZqXYcCAwEAAaOCAuowggLmMB4GA1UdEQQXMBWCE3dpcmVsZXNzLndueXJpYy5v\\ncmcwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBaAwKwYDVR0fBCQwIjAgoB6gHIYa\\naHR0cDovL3NzLnN5bWNiLmNvbS9zcy5jcmwwYQYDVR0gBFowWDBWBgZngQwBAgIw\\nTDAjBggrBgEFBQcCARYXaHR0cHM6Ly9kLnN5bWNiLmNvbS9jcHMwJQYIKwYBBQUH\\nAgIwGQwXaHR0cHM6Ly9kLnN5bWNiLmNvbS9ycGEwHQYDVR0lBBYwFAYIKwYBBQUH\\nAwEGCCsGAQUFBwMCMB8GA1UdIwQYMBaAFF9gz2GQVd+EQxSKYCqy9Xr0QxjvMFcG\\nCCsGAQUFBwEBBEswSTAfBggrBgEFBQcwAYYTaHR0cDovL3NzLnN5bWNkLmNvbTAm\\nBggrBgEFBQcwAoYaaHR0cDovL3NzLnN5bWNiLmNvbS9zcy5jcnQwggF+BgorBgEE\\nAdZ5AgQCBIIBbgSCAWoBaAB2AN3rHSt6DU+mIIuBrYFocH4ujp0B1VyIjT0RxM22\\n7L7MAAABWbwkI6IAAAQDAEcwRQIhANgnN6Z4BbSJk6aWd8ukJ7WRn6cp24lwkjHM\\ndnElTHZiAiAZ7JLadgqvMbLWIhoMrU6jtsoCdaQu8HbTubX+Y5KfpwB2AKS5CZC0\\nGFgUh7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABWbwkI7gAAAQDAEcwRQIhAJZQ\\nHArX9ity+EhwQ6lKBLuFKHbv0CRwXYnV1C2ypCA/AiBtjO2/Bg/8bzbgYXbyPPlX\\nfs/I6CBBB8kgG35hdHJE7wB2ALx44d/F9jxoRkkzTaEPoV8JeWkgCcCBtPP2kX8+\\n2bilAAABWbwkJJcAAAQDAEcwRQIhAICsIqKxv+8x5PW1ilBX+DKuSoOl48sST6ic\\n54CU9FPJAiAfVsX6wIA55edCInYk6LTFTII+wcW0J94uTbjiEcoE9DANBgkqhkiG\\n9w0BAQsFAAOCAQEAVkMLkkNJzPtpOKGjFoG9tZ+9D+fHF/CK+L+OggUFGPEPocxx\\nVQL3+zy1AUXXTjpLY7lL5MMfpbHVBvxr9Nb/3Tgr0szN/89+myhpslocYTVyhW7s\\nQnWj8MSsbuO2pQ5k+J4sFtepoVzAXz0NRq6Pbcazr80+dRUuPUNZzbEB7J0owwHi\\niAcG0COZIcZ233ZzFItrA4aLIBT0zz1OPiW8OWMhwADxYOVt+MTNDlM1GZMIlAah\\nqj40BNmHnC68poAe+S/202rB2jYb1kwzSm+hsfZzq7m/1FG856xh51u5Pa8WhZHs\\n1uF4vFfO7X5YYjl0OClEq17VrpCB6+VRhh2cPw==\\n-----END CERTIFICATE-----\\n-----BEGIN CERTIFICATE-----\\nMIIFODCCBCCgAwIBAgIQUT+5dDhwtzRAQY0wkwaZ/zANBgkqhkiG9w0BAQsFADCB\\nyjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQL\\nExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJp\\nU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxW\\nZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0\\naG9yaXR5IC0gRzUwHhcNMTMxMDMxMDAwMDAwWhcNMjMxMDMwMjM1OTU5WjB+MQsw\\nCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNV\\nBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVjIENs\\nYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAtIEc0MIIBIjANBgkqhkiG9w0BAQEFAAOC\\nAQ8AMIIBCgKCAQEAstgFyhx0LbUXVjnFSlIJluhL2AzxaJ+aQihiw6UwU35VEYJb\\nA3oNL+F5BMm0lncZgQGUWfm893qZJ4Itt4PdWid/sgN6nFMl6UgfRk/InSn4vnlW\\n9vf92Tpo2otLgjNBEsPIPMzWlnqEIRoiBAMnF4scaGGTDw5RgDMdtLXO637QYqzu\\ns3sBdO9pNevK1T2p7peYyo2qRA4lmUoVlqTObQJUHypqJuIGOmNIrLRM0XWTUP8T\\nL9ba4cYY9Z/JJV3zADreJk20KQnNDz0jbxZKgRb78oMQw7jW2FUyPfG9D72MUpVK\\nFpd6UiFjdS8W+cRmvvW1Cdj/JwDNRHxvSz+w9wIDAQABo4IBYzCCAV8wEgYDVR0T\\nAQH/BAgwBgEB/wIBADAwBgNVHR8EKTAnMCWgI6Ahhh9odHRwOi8vczEuc3ltY2Iu\\nY29tL3BjYTMtZzUuY3JsMA4GA1UdDwEB/wQEAwIBBjAvBggrBgEFBQcBAQQjMCEw\\nHwYIKwYBBQUHMAGGE2h0dHA6Ly9zMi5zeW1jYi5jb20wawYDVR0gBGQwYjBgBgpg\\nhkgBhvhFAQc2MFIwJgYIKwYBBQUHAgEWGmh0dHA6Ly93d3cuc3ltYXV0aC5jb20v\\nY3BzMCgGCCsGAQUFBwICMBwaGmh0dHA6Ly93d3cuc3ltYXV0aC5jb20vcnBhMCkG\\nA1UdEQQiMCCkHjAcMRowGAYDVQQDExFTeW1hbnRlY1BLSS0xLTUzNDAdBgNVHQ4E\\nFgQUX2DPYZBV34RDFIpgKrL1evRDGO8wHwYDVR0jBBgwFoAUf9Nlp8Ld7LvwMAnz\\nQzn6Aq8zMTMwDQYJKoZIhvcNAQELBQADggEBAF6UVkndji1l9cE2UbYD49qecxny\\nH1mrWH5sJgUs+oHXXCMXIiw3k/eG7IXmsKP9H+IyqEVv4dn7ua/ScKAyQmW/hP4W\\nKo8/xabWo5N9Q+l0IZE1KPRj6S7t9/Vcf0uatSDpCr3gRRAMFJSaXaXjS5HoJJtG\\nQGX0InLNmfiIEfXzf+YzguaoxX7+0AjiJVgIcWjmzaLmFN5OUiQt/eV5E1PnXi8t\\nTRttQBVSK/eHiXgSgW7ZTaoteNTCLD0IX4eRnh8OsN4wUmSGiaqdZpwOdgyA8nTY\\nKvi4Os7X1g8RvmurFPW9QaAiY4nxug9vKWNmLT+sjHLF+8fk1A/yO0+MKcc=\\n-----END CERTIFICATE-----\\n-----BEGIN CERTIFICATE-----\\nMIIE0zCCA7ugAwIBAgIQGNrRniZ96LtKIVjNzGs7SjANBgkqhkiG9w0BAQUFADCB\\nyjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQL\\nExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJp\\nU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxW\\nZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0\\naG9yaXR5IC0gRzUwHhcNMDYxMTA4MDAwMDAwWhcNMzYwNzE2MjM1OTU5WjCByjEL\\nMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZW\\nZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2ln\\nbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJp\\nU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9y\\naXR5IC0gRzUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvJAgIKXo1\\nnmAMqudLO07cfLw8RRy7K+D+KQL5VwijZIUVJ/XxrcgxiV0i6CqqpkKzj/i5Vbex\\nt0uz/o9+B1fs70PbZmIVYc9gDaTY3vjgw2IIPVQT60nKWVSFJuUrjxuf6/WhkcIz\\nSdhDY2pSS9KP6HBRTdGJaXvHcPaz3BJ023tdS1bTlr8Vd6Gw9KIl8q8ckmcY5fQG\\nBO+QueQA5N06tRn/Arr0PO7gi+s3i+z016zy9vA9r911kTMZHRxAy3QkGSGT2RT+\\nrCpSx4/VBEnkjWNHiDxpg8v+R70rfk/Fla4OndTRQ8Bnc+MUCH7lP59zuDMKz10/\\nNIeWiu5T6CUVAgMBAAGjgbIwga8wDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8E\\nBAMCAQYwbQYIKwYBBQUHAQwEYTBfoV2gWzBZMFcwVRYJaW1hZ2UvZ2lmMCEwHzAH\\nBgUrDgMCGgQUj+XTGoasjY5rw8+AatRIGCx7GS4wJRYjaHR0cDovL2xvZ28udmVy\\naXNpZ24uY29tL3ZzbG9nby5naWYwHQYDVR0OBBYEFH/TZafC3ey78DAJ80M5+gKv\\nMzEzMA0GCSqGSIb3DQEBBQUAA4IBAQCTJEowX2LP2BqYLz3q3JktvXf2pXkiOOzE\\np6B4Eq1iDkVwZMXnl2YtmAl+X6/WzChl8gGqCBpH3vn5fJJaCGkgDdk+bW48DW7Y\\n5gaRQBi5+MHt39tBquCWIMnNZBU4gcmU7qKEKQsTb47bDN0lAtukixlE0kF6BWlK\\nWE9gyn6CagsCqiUXObXbf+eEZSqVir2G3l6BFoMtEMze/aiCKm0oHw0LxOXnGiYZ\\n4fQRbxC1lfznQgUy286dUV4otp6F01vvpX1FQHKOtw5rDgb7MzVIcbidJ4vEZV8N\\nhnacRHr2lVz2XTIIM6RUthg/aFzyQkqFOFSDX9HoLPKsEdao7WNq\\n-----END CERTIFICATE-----\"\n   }, {\n      \"GUID\": \"{c069e7f4-f184-4806-97e1-e0445608a5b0}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID/jCCA2egAwIBAgIJAPbmBnFhQ3FUMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYD\\nVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEUMBIGA1UEBwwLQmFrZXJzZmll\\nbGQxGzAZBgNVBAoMEkxpZ2h0c3BlZWQgU3lzdGVtczEQMA4GA1UECwwHU3VwcG9y\\ndDEaMBgGA1UEAwwRTGlnaHRzcGVlZCBSb2NrZXQxLDAqBgkqhkiG9w0BCQEWHXN1\\ncHBvcnRAbGlnaHRzcGVlZHN5c3RlbXMuY29tMB4XDTE3MDcyODE3NDAwNFoXDTIw\\nMTAyNzE3NDAwNFowgbExCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlh\\nMRQwEgYDVQQHDAtCYWtlcnNmaWVsZDEbMBkGA1UECgwSTGlnaHRzcGVlZCBTeXN0\\nZW1zMRAwDgYDVQQLDAdTdXBwb3J0MRowGAYDVQQDDBFMaWdodHNwZWVkIFJvY2tl\\ndDEsMCoGCSqGSIb3DQEJARYdc3VwcG9ydEBsaWdodHNwZWVkc3lzdGVtcy5jb20w\\ngZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL+4S0aIr60bSa0M6Nbk6olzLu81\\nnLTKts33S0EHNlX/gaDgCsnJVlaYaE2GfktPcvxEyrxyNFx3j1j4Ur39tWrjLmz+\\n1F3rDvCg3tMDGgwOZROzVyt6CuaO3vnhSM6GlX5n7iUlpX5Uyok7U3zxd7qZvIEO\\n+g99FMB1bpp3zZe/AgMBAAGjggEaMIIBFjAdBgNVHQ4EFgQUluA6SOqdaIoT8Zu2\\nEEhMhUR2G7owgeYGA1UdIwSB3jCB24AUluA6SOqdaIoT8Zu2EEhMhUR2G7qhgbek\\ngbQwgbExCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRQwEgYDVQQH\\nDAtCYWtlcnNmaWVsZDEbMBkGA1UECgwSTGlnaHRzcGVlZCBTeXN0ZW1zMRAwDgYD\\nVQQLDAdTdXBwb3J0MRowGAYDVQQDDBFMaWdodHNwZWVkIFJvY2tldDEsMCoGCSqG\\nSIb3DQEJARYdc3VwcG9ydEBsaWdodHNwZWVkc3lzdGVtcy5jb22CCQD25gZxYUNx\\nVDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4GBAGmmQieVWsFMoQnnj/h5\\nx8NxDrOsswCR9yDbnriJTk4NwDKsrirdhrtuOEDvd+xMluBKQUjwpASNkjfjP3ws\\npGD9olCdUJ3bEZBfIMx9439c5c2e4JOUqsmTYHJNl7FU5dETlQ3rd6fOjRB5hbdR\\nR1721QmUirwljGImVTDykVLs\\n-----END CERTIFICATE-----\"\n   } ]\n}\n"
+      },
+      "PacHttpsUrlStrippingEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "PinnedLauncherApps": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "pembccdigcahnckbjcbehhcacplbbomj", "apdfllckaahabafndbhieahigkjlhalf", "mfhehppjhmmnlfbbopchdfldgimhfhfk" ]
+      },
+      "PluginsAllowedForUrls": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "[*.]google.com", "[*.]express.smarttech.com", "[*.]pbs.org", "[*.]my.hrw.com", "https://www.educreations.com/lesson/studio/", "[*.]boardmakeronline.com", "[*.]pearsonsuccessnet.com", "[*.]scholastic.com", "[*.]pearsonsuccessnet.com", "[*.]scratch.mit.edu", "[*.]soraapp.com", "[*.]overdrive.com", "[*.]od-cdn.com", "odrcomponents.cachefly.net", "[*.]libbyshelf.com", "https://its.education.scholastic.com/its/books/mgmt/?sid=fj4d3aqc1vl5g60vrd5ke1m8h3", "[*.]ebooks.education.scholastic.com/", "[*.]teachercentral-cdn.content.hmhco.com/", "[*.]kidsa-z.com/", "http://sks.sirs.com/webapp/issues-researcher" ]
+      },
+      "PopupsAllowedForUrls": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "http://[*.]wevideo.com", "http://[*.]pearsonsuccessnet.com", "http://[*.]galegroup.com", "https://[*.]wits.williamsvillek12.org" ]
+      },
+      "PowerManagementIdleSettings": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "AC": {
+               "Delays": {
+                  "Idle": 2700000,
+                  "ScreenDim": 0,
+                  "ScreenOff": 0
+               },
+               "IdleAction": "Suspend"
+            },
+            "Battery": {
+               "Delays": {
+                  "Idle": 2700000,
+                  "ScreenDim": 0,
+                  "ScreenOff": 0
+               },
+               "IdleAction": "Suspend"
+            }
+         }
+      },
+      "ProxySettings": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "ProxyMode": "pac_script",
+            "ProxyPacUrl": "http://webfilter.williamsville.wnyric.org/pac/tier1/pac/proxy_williamsville_chromebooks.pac"
+         }
+      },
+      "QuickUnlockModeWhitelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": [  ]
+      },
+      "RebootAfterUpdate": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportArcStatusEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ReportDeviceActivityTimes": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceBootMode": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceHardwareStatus": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceNetworkInterfaces": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceSessionStatus": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceUsers": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceVersionInfo": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "RestoreOnStartup": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 4
+      },
+      "RestoreOnStartupURLs": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "https://www.google.com/" ]
+      },
+      "SAMLOfflineSigninTimeLimit": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1209600
+      },
+      "SafeBrowsingEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SearchSuggestEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SmsMessagesAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "SpellCheckServiceEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SystemTimezone": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "America/New_York"
+      },
+      "TPMFirmwareUpdateSettings": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": {
+
+         }
+      },
+      "TranslateEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "URLBlacklist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "https://www.instagram.com", "chrome://flags" ]
+      },
+      "UsbDetachableWhitelist": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "UserAvatarImage": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "hash": "4bfb6eb11d72d76b2fae8dd007bb4a4c9f63a1793aefaaf8a82bcda39f505a3f",
+            "url": "https://storage.googleapis.com/chromeos-mgmt/0gjdgxs2pp267s/PublicAccountPicture/c6b1e6cb-3486-4e12-8f12-6719d432af75"
+         }
+      },
+      "WallpaperImage": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "hash": "599857ca12129d880fd6a47ed4c287ddc11f1635cd4a3b6292a50ae81232fb75",
+            "url": "https://storage.googleapis.com/chromeos-mgmt/0gjdgxs2pp267s/ChromeOsWallpaper/3a1b9735-8c33-4b5f-8d89-fcdf8630b0a8"
+         }
+      },
+      "WebRtcUdpPortRange": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "1024-65535"
+      }
+   },
+   "extensionPolicies": {
+      "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
+
+      },
+      "jkecilbkdjdngkdbhfdjncppagdmjlfh": {
+         "serverSettings": {
+            "level": "mandatory",
+            "scope": "user",
+            "source": "sourceCloud",
+            "value": {
+               "cloudSiteCode": "3631470"
+            }
+         }
+      },
+      "mmeijimgabbpbgpdklnllpncmdofkcpn": {
+
+      }
+   }
+}
