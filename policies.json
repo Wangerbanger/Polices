@@ -4,13 +4,13 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "AllowKioskAppControlChromeVersion": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "AllowOutdatedPlugins": {
          "level": "mandatory",
@@ -22,37 +22,37 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": 0
+         "value": 1
       },
       "ArcEnabled": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "ArcGoogleLocationServicesEnabled": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": 0
+         "value": 1
       },
       "AttestationEnabledForDevice": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "AttestationEnabledForUser": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "AttestationForContentProtectionEnabled": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "BlockThirdPartyCookies": {
          "level": "mandatory",
@@ -70,37 +70,37 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "CastReceiverEnabled": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "ChromeOsLockOnIdleSuspend": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "ChromeOsMultiProfileUserBehavior": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": "not-allowed"
+         "value": "allowed"
       },
       "ChromeOsReleaseChannel": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": "stable-channel"
+         "value": "developer-channel"
       },
       "ChromeOsReleaseChannelDelegated": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "CookiesAllowedForUrls": {
          "level": "mandatory",
@@ -130,32 +130,32 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": 0
+         "value": 4
       },
       "DeveloperToolsDisabled": {
          "error": "This policy has been deprecated.\nIgnored because it was overridden by DeveloperToolsAvailability.\nThis policy has been deprecated.",
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "DeviceAllowNewUsers": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "DeviceAutoUpdateDisabled": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "DeviceBlockDevmode": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "DeviceDataRoamingEnabled": {
          "level": "mandatory",
@@ -167,13 +167,13 @@
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "DeviceGuestModeEnabled": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "DeviceLocalAccounts": {
          "level": "mandatory",
@@ -211,19 +211,7 @@
          "source": "sourceCloud",
          "value": false
       },
-      "DeviceLoginScreenDomainAutoComplete": {
-         "level": "mandatory",
-         "scope": "machine",
-         "source": "sourceCloud",
-         "value": "williamsvillek12.org"
-      },
-      "DeviceLoginScreenInputMethods": {
-         "level": "mandatory",
-         "scope": "machine",
-         "source": "sourceCloud",
-         "value": [  ]
-      },
-      "DeviceLoginScreenLocales": {
+       "DeviceLoginScreenLocales": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
@@ -233,25 +221,13 @@
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
-      },
-      "DeviceOpenNetworkConfiguration": {
-         "level": "mandatory",
-         "scope": "machine",
-         "source": "sourceCloud",
-         "value": "{\n   \"GlobalNetworkConfiguration\": {\n      \"AllowOnlyPolicyNetworksToAutoconnect\": false,\n      \"AllowOnlyPolicyNetworksToConnect\": false\n   },\n   \"NetworkConfigurations\": [ {\n      \"GUID\": \"{c47e259d-b3cb-44b7-92f6-53b42191760f}\",\n      \"Name\": \"WCSD\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"EAP\": {\n            \"Identity\": \"ipad\",\n            \"Inner\": \"Automatic\",\n            \"Outer\": \"PEAP\",\n            \"Password\": \"********\",\n            \"Recommended\": [ \"AnonymousIdentity\", \"Identity\", \"Password\" ],\n            \"SaveCredentials\": true,\n            \"UseSystemCAs\": false\n         },\n         \"HiddenSSID\": false,\n         \"SSID\": \"WCSD\",\n         \"Security\": \"WPA-EAP\"\n      }\n   }, {\n      \"GUID\": \"{03fb0aff-f066-409f-b0b9-8163b5120100}\",\n      \"Name\": \"WCSD_WiFi\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"EAP\": {\n            \"Identity\": \"wifi\",\n            \"Inner\": \"Automatic\",\n            \"Outer\": \"PEAP\",\n            \"Password\": \"********\",\n            \"Recommended\": [ \"AnonymousIdentity\", \"Identity\", \"Password\" ],\n            \"SaveCredentials\": true,\n            \"UseSystemCAs\": false\n         },\n         \"HiddenSSID\": false,\n         \"SSID\": \"WCSD_WiFi\",\n         \"Security\": \"WPA-EAP\"\n      }\n   } ]\n}\n"
+         "value": true
       },
       "DeviceShowUserNamesOnSignin": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
-      },
-      "DeviceTargetVersionPrefix": {
-         "level": "mandatory",
-         "scope": "machine",
-         "source": "sourceCloud",
-         "value": "11021."
+         "value": false
       },
       "DeviceUpdateHttpDownloadsEnabled": {
          "level": "mandatory",
@@ -293,13 +269,13 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "EcryptfsMigrationStrategy": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": 5
+         "value": 0
       },
       "EnableMediaRouter": {
          "level": "mandatory",
@@ -311,13 +287,13 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "EnableSyncConsent": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "EnabledPlugins": {
          "error": "This policy has been deprecated.",
@@ -325,25 +301,6 @@
          "scope": "user",
          "source": "sourceCloud",
          "value": [ "*Flash*" ]
-      },
-      "ExtensionInstallBlacklist": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": [ "*" ]
-      },
-      "ExtensionInstallForcelist": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": [ "nbjdhgkkhefpifbifjiflpaajchdkhpg;https://clients2.google.com/service/update2/crx", "pembccdigcahnckbjcbehhcacplbbomj;https://clients2.google.com/service/update2/crx", "abgfnbfplmdnhfnonljpllnfcobfebag;https://clients2.google.com/service/update2/crx", "okgjbfikepgflmlelgfgecmgjnmnmnnb;https://clients2.google.com/service/update2/crx", "apdfllckaahabafndbhieahigkjlhalf;https://clients2.google.com/service/update2/crx", "mfhehppjhmmnlfbbopchdfldgimhfhfk;https://clients2.google.com/service/update2/crx", "lneaknkopdijkpnocmklfnjbeapigfbh;https://clients2.google.com/service/update2/crx", "hmjkmjkepdijhoojdojkdfohbdgmmhki;https://clients2.google.com/service/update2/crx", "lpcaedmchfhocbbapmcbpinfpgnhiddi;https://clients2.google.com/service/update2/crx", "ejjicmeblgpmajnghnpcppodonldlgfn;https://clients2.google.com/service/update2/crx", "aapocclcgogkmnckokdopfmhonfmgoek;https://clients2.google.com/service/update2/crx", "felcaaldnbdncclmgdcncolpebgiejap;https://clients2.google.com/service/update2/crx", "blpcfgokakmgnkcojhhkbfbldkacnbeo;https://clients2.google.com/service/update2/crx", "cenpjcpgdbogmgdfhhckdbnepedjkmok;https://clients2.google.com/service/update2/crx", "bgofflgeghkhocbociocnckocbjmomjh;https://clients2.google.com/service/update2/crx", "bfpeiapdhnegnfcfkdfihabadngjagfj;https://clients2.google.com/service/update2/crx", "fnhgfoccpcjdnjcobejogdnlnidceemb;https://clients2.google.com/service/update2/crx", "mmeijimgabbpbgpdklnllpncmdofkcpn;https://clients2.google.com/service/update2/crx", "aohghmighlieiainnegkcijnfilokake;https://clients2.google.com/service/update2/crx", "ghbmnnjooekpmoecnnnilnnbdlolhkhi;https://clients2.google.com/service/update2/crx", "joodangkbfjnajiiifokapkpmhfnpleo;https://clients2.google.com/service/update2/crx", "hfhhnacclhffhdffklopdkcgdhifgngh;https://clients2.google.com/service/update2/crx", "jkecilbkdjdngkdbhfdjncppagdmjlfh;https://clients2.google.com/service/update2/crx" ]
-      },
-      "ExtensionInstallWhitelist": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": [ "idlcfdihcafblaoadpfeofbcbcmfogbc", "ggebicodjlnlcnlnfmbnhihkmoblhmio", "ociighkhkffcoplfkofojilfjholclge", "jhnhfnolmcleankdkhfklakpchnccipg", "bkidjlafelhjjkdhlbmbpneaofghikcg", "mbedahlhfedefficmodbeebfcepgejeb", "moheohlmdhjkibapcidpmdponeaefnoi", "gaakmmdiopnmcenkojohldanladpajak", "pembccdigcahnckbjcbehhcacplbbomj", "abgfnbfplmdnhfnonljpllnfcobfebag", "okgjbfikepgflmlelgfgecmgjnmnmnnb", "apdfllckaahabafndbhieahigkjlhalf", "mfhehppjhmmnlfbbopchdfldgimhfhfk", "lneaknkopdijkpnocmklfnjbeapigfbh", "hmjkmjkepdijhoojdojkdfohbdgmmhki", "lpcaedmchfhocbbapmcbpinfpgnhiddi", "ejjicmeblgpmajnghnpcppodonldlgfn", "aapocclcgogkmnckokdopfmhonfmgoek", "felcaaldnbdncclmgdcncolpebgiejap", "bgofflgeghkhocbociocnckocbjmomjh", "bfpeiapdhnegnfcfkdfihabadngjagfj", "nblhpecglllndfihipmpdoikimcmgkha", "fnhgfoccpcjdnjcobejogdnlnidceemb", "aapbdbdomjkkjkaonfhkkikfgjllcleb", "adokjfanaflbkibffcbhihgihpgijcei", "nnnmhgkokpalnmbeighfomegjfkklkle", "hfknjgplnkgjihghcidajejfmldhibfm", "pnhplgjpclknigjpccbcnmicgcieojbh", "gcmhlmapohffdglflokbgknlknnmogbb", "mpgknomjjgfnghhmhnhgpmanpkccgkoc", "jimdfkeocobeeldobhpakapbhdeample", "mbniclmhobmnbdlbpiphghaielnnpgdp", "mmeijimgabbpbgpdklnllpncmdofkcpn", "hmffdimoneaieldiddcmajhbjijmnggi", "klbibkeccnjlkjkiokjodocebajanakg", "ecnphlgnajanjnkcmbpancdjoidceilk", "kcljbbiddpoeaknnjaminoceoojdbikp", "hdgegmlancchhhlkkddoiedlklgocffm", "lhpghbcjpkhhmcaegbbfhmjlnnnaomhl", "fdiljnnpfniifgbaippdemegmlhoohka", "ojocioejjpmeccjfjlhkepchminjemod", "cbnaodkpfinfiipjblikofhlhlcickei", "mjpnebljmdbglkmlnijcaplhfhkhdnib", "icdipabjmbhpdkjaihfjoikhjjeneebd", "dpbdkndgjajkiiefijgalogakkpajaao", "dbpdpeiclmkfgkeajgjamlgggojplnbh", "joodangkbfjnajiiifokapkpmhfnpleo", "hfhhnacclhffhdffklopdkcgdhifgngh", "adnohgfkodfphemhddnmikhflkolfjfh", "mkaakpdehdafacodkgkpghoibnmamcme", "jhknlonaankphkkbnmjdlpehkinifeeg", "iimbdmgkimpbhimdjnmiffmeefbppijo", "dncgedbnidfkppmdgfgidcepclnokpkb", "pflionopdgpjckjkafnlamfmonjhccdh", "llogfdcpkbmhlbhpedllgoapfacjeehc", "pifccnhncmnilgbnnkjkgicpkeclodpd", "iljojpiodmlhoehoecppliohmplbgeij", "ffcdbahjgkcjlihapdgildkclemddloh", "fhcpnppigjdhghbohcbogmmhmfkobgbm", "pdblapgbfbphhldogcijidlkbcgokfkc", "meemkplfomoioonodcagdahjbcgfjgmc", "adhdegclfbodpmkgijicickeocncjkpp", "fiefoaeemgdpplhofbhkdehoidoajfld", "iaigceaehdihlnolehbapjfbbfpnlngg", "ppckapbnfhikdajgehibjapcohbaomhd", "hojmjpdlmjopaeginhldhiokeidchjid", "icmaknaampgiegkcjlimdiidlhopknpk", "iaiglpeefdoagfbbfhjfbmomnfobojia", "ndjpildffkeodjdaeebdhnncfhopkajk", "fhcmhglnohogibbbpbodmjeggpdlboop", "nlngjmhlfdekmgoaaiendhkcbhdcedjh", "lahlmdogjpblkonckkgbljegkiijjbag", "ifajfiofeifbbhbionejdliodenmecna", "ljkchdmiefjpclcpniabljokcaedooaa", "clmabinlolakdafkoajkfjjengcdmnpm", "lfloofocohhfeeoohpokmljiinfmpenj", "gfjopfpjmkcfgjpogepmdjmcnihfpokn", "jkecilbkdjdngkdbhfdjncppagdmjlfh", "cmeclblmdmffdgpdlifgepjddoplmmal", "bjgaebedopceccaeilcggifflldliobf", "ofhomjgaaamjpmjogmkglfojkdlabekg", "eefedolmcildfckjamddopaplfiiankl", "inoeonmfapjbbkmdafoankkfajkcphgd", "hjngolefdpdnooamgdldlkjgmdcmcjnc", "bpconcjcammlapcogcnnelfmaeghhagj", "kbfnbcaeplbcioakkpcpgfkobkghlhen", "anlkfbpodhealnhnmdaflcekcmcjpnil", "hdhinadidafjejdhmfkjgnolgimiaplp", "bogbeamlpeicceboocmjdcpmfnpphdjm", "feepmdlmhplaojabeoecaobfmibooaid", "enfolipbjmnmleonhhebhalojdpcpdoo", "mdddabjhelpilpnpgondfmehhcplpiin", "ohpcoflekopkahpgomnabhkclbedepll", "mclkkofklkfljcocdinagocijmpgbhab", "ngabidjikmpanokhnajohenclgjedjkp", "dehajjkfchegiinhcmoclkfbnmpgcahj", "nfiekeidmabgihoefbofbeepmcdglhji", "dfbmcelmchhnfkmpccoabeplnmdljeod", "ejajakfhhhhkifioabcekjjlhpoiijfa" ]
-      },
       "ExternalStorageDisabled": {
          "level": "mandatory",
          "scope": "user",
@@ -360,25 +317,25 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "ForceYouTubeRestrict": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": 1
+         "value": 0
       },
       "HeartbeatEnabled": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "IncognitoModeAvailability": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": 1
+         "value": true
       },
       "InstantTetheringAllowed": {
          "level": "mandatory",
@@ -396,39 +353,7 @@
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": false
-      },
-      "LoginVideoCaptureAllowedUrls": {
-         "level": "mandatory",
-         "scope": "machine",
-         "source": "sourceCloud",
-         "value": [  ]
-      },
-      "ManagedBookmarks": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": [ {
-            "toplevel_name": "District Bookmarks"
-         }, {
-            "name": "Lightspeed",
-            "url": "http://webfilter.williamsvillek12.org/lsaccess/logout"
-         }, {
-            "name": "Reading Student Access",
-            "url": "https://h100002218.education.scholastic.com/slms/studentaccess"
-         }, {
-            "name": "WITS",
-            "url": "https://wits.williamsvillek12.org/data/WITS"
-         }, {
-            "name": "Library Catalog",
-            "url": "https://wcsdestiny.williamsvillek12.org/"
-         }, {
-            "name": "Pixlr",
-            "url": "https://pixlr.com/editor/"
-         }, {
-            "name": "WCSD Password Management Site",
-            "url": "https://reset.williamsvillek12.org/"
-         } ]
+         "value": true
       },
       "MaxInvalidationFetchDelay": {
          "level": "mandatory",
@@ -475,7 +400,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "PinnedLauncherApps": {
          "level": "mandatory",
@@ -495,44 +420,6 @@
          "source": "sourceCloud",
          "value": [ "http://[*.]wevideo.com", "http://[*.]pearsonsuccessnet.com", "http://[*.]galegroup.com", "https://[*.]wits.williamsvillek12.org" ]
       },
-      "PowerManagementIdleSettings": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": {
-            "AC": {
-               "Delays": {
-                  "Idle": 2700000,
-                  "ScreenDim": 0,
-                  "ScreenOff": 0
-               },
-               "IdleAction": "Suspend"
-            },
-            "Battery": {
-               "Delays": {
-                  "Idle": 2700000,
-                  "ScreenDim": 0,
-                  "ScreenOff": 0
-               },
-               "IdleAction": "Suspend"
-            }
-         }
-      },
-      "ProxySettings": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": {
-            "ProxyMode": "pac_script",
-            "ProxyPacUrl": "http://webfilter.williamsville.wnyric.org/pac/tier1/pac/proxy_williamsville_chromebooks.pac"
-         }
-      },
-      "QuickUnlockModeWhitelist": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceEnterpriseDefault",
-         "value": [  ]
-      },
       "RebootAfterUpdate": {
          "level": "mandatory",
          "scope": "machine",
@@ -543,55 +430,55 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": false
+         "value": true
       },
       "ReportDeviceActivityTimes": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "ReportDeviceBootMode": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "ReportDeviceHardwareStatus": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "ReportDeviceNetworkInterfaces": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "ReportDeviceSessionStatus": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "ReportDeviceUsers": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "ReportDeviceVersionInfo": {
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "RestoreOnStartup": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": 4
+         "value": 0
       },
       "RestoreOnStartupURLs": {
          "level": "mandatory",
@@ -599,17 +486,11 @@
          "source": "sourceCloud",
          "value": [ "https://www.google.com/" ]
       },
-      "SAMLOfflineSigninTimeLimit": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": 1209600
-      },
       "SafeBrowsingEnabled": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": true
+         "value": false
       },
       "SearchSuggestEnabled": {
          "level": "mandatory",
@@ -621,7 +502,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "SpellCheckServiceEnabled": {
          "level": "mandatory",
@@ -639,69 +520,10 @@
          "level": "mandatory",
          "scope": "machine",
          "source": "sourceCloud",
-         "value": {
-
-         }
+         "value": 1
       },
       "TranslateEnabled": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": false
-      },
-      "URLBlacklist": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": [ "https://www.instagram.com", "chrome://flags" ]
-      },
-      "UsbDetachableWhitelist": {
-         "level": "mandatory",
-         "scope": "machine",
-         "source": "sourceCloud",
-         "value": [  ]
-      },
-      "UserAvatarImage": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": {
-            "hash": "4bfb6eb11d72d76b2fae8dd007bb4a4c9f63a1793aefaaf8a82bcda39f505a3f",
-            "url": "https://storage.googleapis.com/chromeos-mgmt/0gjdgxs2pp267s/PublicAccountPicture/c6b1e6cb-3486-4e12-8f12-6719d432af75"
-         }
-      },
-      "WallpaperImage": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": {
-            "hash": "599857ca12129d880fd6a47ed4c287ddc11f1635cd4a3b6292a50ae81232fb75",
-            "url": "https://storage.googleapis.com/chromeos-mgmt/0gjdgxs2pp267s/ChromeOsWallpaper/3a1b9735-8c33-4b5f-8d89-fcdf8630b0a8"
-         }
-      },
-      "WebRtcUdpPortRange": {
-         "level": "mandatory",
-         "scope": "user",
-         "source": "sourceCloud",
-         "value": "1024-65535"
-      }
-   },
-   "extensionPolicies": {
-      "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
-
-      },
-      "jkecilbkdjdngkdbhfdjncppagdmjlfh": {
-         "serverSettings": {
-            "level": "mandatory",
-            "scope": "user",
-            "source": "sourceCloud",
-            "value": {
-               "cloudSiteCode": "3631470"
-            }
-         }
-      },
-      "mmeijimgabbpbgpdklnllpncmdofkcpn": {
-
-      }
-   }
-}
+         "value": true
