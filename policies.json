@@ -241,12 +241,6 @@
          "source": "sourceCloud",
          "value": 604800
       },
-      "DeviceUserWhitelist": {
-         "level": "mandatory",
-         "scope": "machine",
-         "source": "sourceCloud",
-         "value": [ "*@williamsvillek12.org", "rlattimer@christianca.com", "gconschafter@christianca.com", "kmartin@christianca.com", "wmartey@christianca.com", "williamsvillecsd1@gmail.com", "STU-ftodaro@e2ccb.org", "STU-egirard@e2ccb.org", "STU-egirard@student.e2ccb.org", "STU-ftodaro@student.e2ccb.org", "STU-akhan@student.e2ccb.org", "STU-akhan@e2ccb.org" ]
-      },
       "DisableSafeBrowsingProceedAnyway": {
          "level": "mandatory",
          "scope": "user",
@@ -307,7 +301,7 @@
          "source": "sourceCloud",
          "value": false
       },
-      "ExternalStorageReadOnly": {
+      "ExternalStorageReadOnly" {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
