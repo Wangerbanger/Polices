@@ -301,7 +301,7 @@
          "source": "sourceCloud",
          "value": false
       },
-      "ExternalStorageReadOnly" {
+      "ExternalStorageReadOnly": {
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
